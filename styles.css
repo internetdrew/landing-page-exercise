@@ -32,14 +32,12 @@ button {
 .container {
   max-width: 1000px;
   padding: 10px;
-  /* border: 1px solid black; */
 }
 
 .navigation {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
-  /* border: 1px solid black; */
 }
 
 .nav-links {
@@ -47,7 +45,6 @@ button {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  /* border: 1px solid black; */
   list-style: none;
 }
 
@@ -67,7 +64,6 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid black; */
   width: 800px;
   height: 400px;
 }
@@ -75,9 +71,6 @@ button {
 .side-by-side {
   width: 400px;
   height: 250px;
-  /* border: 1px solid black; */
-  /* padding: 15px; */
-  /* margin: 20px; */
 }
 
 .side-by-side.left {
@@ -89,7 +82,6 @@ button {
   justify-content: center;
   align-items: center;
   background-color: #999a9c;
-  /* border: 1px solid black; */
   color: white;
 }
 
