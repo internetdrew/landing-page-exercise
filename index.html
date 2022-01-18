@@ -5,30 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <script src="./app.js" defer></script>
     <title>Landing Page Project</title>
   </head>
   <body>
     <header>
-      <nav>
-        <div class="logo">Header Logo</div>
-        <ul>
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link two</a></li>
-          <li><a href="#">header link three</a></li>
-        </ul>
-      </nav>
-      <div class="header-content">
-        <div class="left">
-          <h1>This website is awesome</h1>
-          <p>
+      <!-- Header top navigation -->
+      <div class="top-nav">
+        <div class="title">Logo Title</div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">header link one</a></li>
+            <li><a href="#">header link two</a></li>
+            <li><a href="#">header link three</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Header main content -->
+      <div class="two-col-container">
+        <div class="col left-col">
+          <h1 class="hero-text">This website is awesome</h1>
+          <p class="subtext">
             This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lower contrast.
+            It's a smaller font and the color is lower
           </p>
-          <button>Sign up</button>
+          <button class="header-button">Sign up</button>
         </div>
-        <div class="right"><img src="./img/hero.jpg" alt="" /></div>
+        <div class="col right-col">
+          <img src="./img/hero.jpg" alt="" />
+        </div>
       </div>
     </header>
+
+    <!-- Random Info Section -->
+    <section class="section-two">
+      <div class="section-heading">
+        <h2>Some random information.</h2>
+      </div>
+
+      <div class="row">
+        <div class="img-and-text-container">
+          <img src="./img/img-1.jpg" alt="" class="square-img" />
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="img-and-text-container">
+          <img src="./img/img-2.jpg" alt="" class="square-img" />
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="img-and-text-container">
+          <img src="./img/img-3.jpg" alt="" class="square-img" />
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="img-and-text-container">
+          <img src="./img/img-4.jpg" alt="" class="square-img" />
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote section -->
+    <section class="quote">
+      <figure>
+        <blockquote>
+          <p>
+            This is an inspiring quote, or a testimonial from a customer. Maybe
+            it's just filling up space, or maybe people will actually read it.
+            Who knows? All I know is that it looks nice.
+          </p>
+        </blockquote>
+        <figcaption><p>— Thor, God of Thunder</p></figcaption>
+      </figure>
+    </section>
+
+    <!-- Call to action -->
+    <section class="cta">
+      <div class="cta-container">
+        <div class="cta-left">
+          <h3>Call to action! It's time!</h3>
+          <p>
+            Sign up for our product by clicking that button right over there.
+          </p>
+        </div>
+        <div class="cta-right">
+          <button>Sign up</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-text-container">
+        <p>
+          Built with ❤️ by
+          <a href="http://twitter.com/_internetdrew">@_internetdrew</a> 👨🏾‍💻
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
